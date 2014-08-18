@@ -2,7 +2,4 @@ language: cpp
 compiler:
   - gcc
   - clang
-os:
-  - linux
-  - osx
 script: ./scripts/run_tests.sh opensmt ./tests/QF_UF
