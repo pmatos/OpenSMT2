@@ -6,4 +6,4 @@ before_install:
   - sudo apt-get update -qq
   - sudo apt-get install -qq libgmp-dev
 install: ./configure && make -j4
-script: ./scripts/run_tests.sh src/opensmt ./tests/QF_UF
+script: ./scripts/run-tests.sh src/opensmt ./tests/QF_UF
