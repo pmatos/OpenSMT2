@@ -1,4 +1,4 @@
-AC_PREREQ(2.59)
+AC_PREREQ(2.69)
 AC_INIT([OpenSMT 2.0.svnversion], [(unstable)], [antti.hyvarinen@gmail.com])
 config_flags="$*"
 AC_DEFINE_UNQUOTED([CONFIG_FLAGS], ["$config_flags"], [Flags passed to configure])
@@ -16,8 +16,6 @@ AC_PROG_LN_S
 AC_PROG_MAKE_SET
 
 LT_INIT
-
-AC_DEFINE(SVN_REVISION, "svnversion", [SVN Revision])
 
 AC_ARG_ENABLE(library,
   AC_HELP_STRING([--enable-library],
