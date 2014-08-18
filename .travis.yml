@@ -2,4 +2,5 @@ language: cpp
 compiler:
   - gcc
   - clang
-script: ./scripts/run_tests.sh opensmt ./tests/QF_UF
+install: ./configure && make -j4
+script: ./scripts/run_tests.sh src/opensmt ./tests/QF_UF
