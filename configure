@@ -16239,10 +16239,6 @@ fi
 
 
 
-
-$as_echo "#define SVN_REVISION \"svnversion\"" >>confdefs.h
-
-
 # Check whether --enable-library was given.
 if test "${enable_library+set}" = set; then :
   enableval=$enable_library; want_library="yes"
